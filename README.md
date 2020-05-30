@@ -1,7 +1,3 @@
-# FC Studio
-
-Make a difference in the mobile application ecosystem.
-
 ## About
 
 About us and our story
