@@ -1,6 +1,6 @@
 ## About
 
-Founded in May 2020, FC Studio is a mobile developer inspired to reach people though games and applications.
+Founded in May 2020, FC Studio is a mobile developer inspired to reach people through games and applications.
 
 ## Games
 

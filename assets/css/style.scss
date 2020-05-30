@@ -4,4 +4,18 @@
 $header-bg-color: #9429c5 !default;
 $header-bg-color-secondary: #50b621 !default;
 
+.btn-dark {
+  @extend .btn;
+
+  color: rgba(0, 0, 0, 0.7) !important;
+  background-color: rgba(0, 0, 0, 0.08) !important;
+  border-color: rgba(0, 0, 0, 0.2) !important;
+
+  &:hover {
+    color: rgba(0, 0, 0, 0.8) !important;
+    background-color: rgba(0, 0, 0, 0.2) !important;
+    border-color: rgba(0, 0, 0, 0.3) !important;
+  }
+}
+
 @import 'jekyll-theme-cayman';
