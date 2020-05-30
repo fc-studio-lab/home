@@ -15,7 +15,7 @@
 
 {% seo %}
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#157878">
+    <meta name="theme-color" content="#0fc1d0">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
   </head>
@@ -23,20 +23,13 @@
     <header class="page-header" role="banner">
       <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
-      {% if site.github.is_project_page %}
-        <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
-      {% endif %}
-      {% if site.show_downloads %}
-        <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
-        <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
-      {% endif %}
     </header>
 
     <main id="content" class="main-content" role="main">
       {{ content }}
 
       <footer class="site-footer">
-        <span class="site-footer-credits"><a href="{{ '/docs/Terms of Service.pdf' }}">Terms of Service</a>&nbsp;   &nbsp;<a href="{{ '/docs/Privacy Notice.pdf' }}">Privacy Notice</a></span>
+        <span class="site-footer-credits">© 2020 FC Studio, LLC.&nbsp;   &nbsp;<a href="{{ '/docs/Terms_of_Service.pdf' }}">Terms of Service</a>&nbsp;   &nbsp;<a href="{{ '/docs/Privacy_Notice.pdf' }}">Privacy Notice</a></span>
       </footer>
     </main>
   </body>
