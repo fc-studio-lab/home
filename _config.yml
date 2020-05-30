@@ -1,1 +1,13 @@
 theme: jekyll-theme-cayman
+lang: en-US
+
+title: FC Studio
+description: Make a difference in the mobile application ecosystem.
+
+show_downloads: false
+google_analytics: UA-167989512-1
+
+github:
+  build_revision: 0.0.1
+
+
