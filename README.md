@@ -18,4 +18,4 @@ About us and our story
 
 ## Contact
 
-Contact us: help@onfcstudio.com
+Contact us: <a href="mailto:help@onfcstudio.com">help@onfcstudio.com</a>
